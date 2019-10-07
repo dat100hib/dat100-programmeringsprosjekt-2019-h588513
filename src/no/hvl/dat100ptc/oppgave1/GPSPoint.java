@@ -73,11 +73,13 @@ public class GPSPoint {
 		
 		// TODO - start
 
-		str = "Time = "+time+", latitude = " + latitude + ", longitude = " + longitude + " and elevation = " + elevation;
-		
-		// TODO - slutt
+		str = time +this.latitude+ ","+  this.longitude + elevation;
+		str.toString(); 
 		
 		return str;
+		// TODO - slutt
+		
+		
 		
 	}
 }
